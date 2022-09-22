@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#headerX, #headerY {
+    display: inline-block;
+    background: whitesmoke;
+    height: 33%;
+    width: 33%;
+    margin-top: 5%;
+}
+
+#headerY{
+    float: left;
+}
+
+#headerX{
+    float: right;
+}
+
+#secondWrapper{
+    display: inline-block;
+}
+
+#x, #y {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+            "first second second"
+            "first third forth"
+            "first fifth forth"
+            "sixth sixth sixth";
+    justify-items: stretch;
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+
+#first {
+    background-color: indianred;
+    grid-area: first;
+    min-height: max-content;
+}
+
+#second {
+    display: inline-block;
+    background-color: cornflowerblue;
+    grid-area: second;
+}
+
+#third {
+    background-color: darkseagreen;
+    grid-area: third;
+}
+
+#forth {
+    background-color: darkseagreen;
+    grid-area: forth;
+}
+
+#fifth {
+    background-color: whitesmoke;
+    grid-area: fifth;
+}
+
+#sixth {
+    background-color: cornflowerblue;
+    grid-area: sixth;
+}
+
+#firstParagraph{
+    text-align: center;
+}
+
+#secondParagraph{
+    text-align: center;
+}
+
+#thirdParagraph{
+    text-align: end;
+}
+
+#fifthParagraph{
+}
+
+#footer_text{
+    float: right;
+}
+
+p a{
+    display: inline-block;
+}
+
+nav p{
+    text-align: center;
+}
+
+a{
+    display: block;
+    text-align: center;
+}
+
+#first, #second, #third, #forth, #fifth{
+    border: solid 1px black;
+}
