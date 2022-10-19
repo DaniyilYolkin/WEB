@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 2%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    height: fit-content;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: #333333;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+#main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom,rgba(241,197,15,1) 34%,rgba(13,35,75,1) 34%);
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.footer-text{
+    width: 33%;
+}
+
+img{
+    height: 300px;
+    width: 215px;
+    margin: 1%;
+    box-shadow: 1px 1px 15px black;
+}
+
+#firstPicture, #thirdPicture{
+    margin-bottom: 10%;
+}
+
+#secondPicture, #forthPicture{
+    margin-top: 10%;
+}
+
+#textBlock1, #textBlock2, #textBlock3, #textBlock4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    height: 300px;
+    width: 215px;
+    margin: 1%;
+}
+
+#content1, #content2, #content3, #content4{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#more1, #more2, #more3, #more4{
+}
+
+#logo1, #logo2, #logo3, #logo4{
+}
+
+a{
+    color: dimgrey;
+}
+
+p{
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.hoverable:hover{
+    color: rgba(241,197,15,1);
+    transition-duration: 1.25s;
+}
+
+#logo:hover, #burger:hover{
+    cursor: pointer;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(241,197,15,1);
+}
+
+.circle:hover{
+    background-color: rgba(13,35,75,1);
+}
+
