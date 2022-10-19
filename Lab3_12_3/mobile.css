@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#firstbigflexbox {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 9.5;
+    width: inherit
+    width: 100%;
+}
+
+#secondbigflexbox{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 8;
+    width: 100%;
+}
+
+#thirdbigflexbox{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 33.5;
+}
+
+#forthbigflexbox{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 75%;
+    flex-shrink: 0;
+    order: 1;
+}
+
+#first {
+    background-color: indianred;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 2;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+#second {
+    background-color: cornflowerblue;
+
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#third {
+    background-color: darkseagreen;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#forth {
+    background-color: darkseagreen;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#fifth {
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 30;
+    flex-shrink: 0;
+    order: 2;
+}
+
+#sixth {
+    background-color: cornflowerblue;
+    flex-grow: 0.5;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first, #second, #third, #forth, #fifth, #sixth {
+    border: 1px solid black;
+}
+
+#headerX, #headerY {
+    background: whitesmoke;
+    height: 33%;
+    width: 33%;
+    margin: 2%;
+    font-size: 13px;
+}
+
+#footer_text{
+    margin: 5%;
+}
+
+#x, #y {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
